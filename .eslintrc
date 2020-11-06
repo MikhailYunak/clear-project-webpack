@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "rules": {
+    "linebreak-style": ["error", "windows"]
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "extends": [
+    "airbnb"
+  ],
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}

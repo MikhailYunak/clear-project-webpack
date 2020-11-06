@@ -1,0 +1,21 @@
+{
+  "parser": "babel",
+  "useTabs": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "semi": true,
+  "printWidth": 100,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "proseWrap": "never",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ]
+}

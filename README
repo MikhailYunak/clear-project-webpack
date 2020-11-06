@@ -1,0 +1,2 @@
+add new empty project;
+includes: Webpack, React, esLint, prettier, airbnb code styles;
